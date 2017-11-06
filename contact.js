@@ -1,3 +1,5 @@
+ #!/usr/local/bin/env node
+
 const program = require('commander');
 const { addContact, getContact} = require('./logic.js');
 const {prompt} = require('inquirer');
